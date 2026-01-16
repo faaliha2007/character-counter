@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Character counter</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="min-h-screen flex items-center justify-center bg-gradient-to-br from-pink-100 via-purple-100 to-blue-100">
+  <!--card-->
+  <div id="card" class="bg-white w-full max-w-md rounded-2xl shadow-xl overflow-hidden">
+
+    <!--head-->
+    <div class="flex items-center justify-between p-4 border-b">
+      <div class="flex items-center gap-3">
+        <img src="https://i.pravatar.cc/100?img=32" class="w-10 h-10 rounded-full">
+        <p class="font-semibold">Angel_.</p>
+      </div>
+
+      <!--darkbtn-->
+      <button id="darkbtn" class="text-xl">🌙</button>
+    </div>
+
+    <!--text-->
+    <div class="p-4">
+      <textarea id="textbox" placeholder="Write a caption...." rows="4"
+        class="resize-none text-base w-full outline-none text-gray-800 placeholder-gray-400"></textarea>
+
+    </div>
+
+    <!--progress-->
+    <div class="px-4">
+      <div class="bg-gray-200 w-full h-1 rounded-full overflow-hidden">
+        <!--progressbar-->
+        <div id="progress" class="bg-pink-500 h-full transition-all w-0">
+        </div>
+      </div>
+
+      <!--footer-->
+      <div class="flex items-center justify-between px-4 py-3 text-sm text-gray-500">
+        <p id="warning" class="text-red-500"></p>
+        <p id="count">0/200</p>
+
+      </div>
+    </div>
+    <!--like-->
+
+    <button id="likebtn" class="px-3 text-3xl py-2 text-gray-400 transition transform active:scale-125"> ♡</button>
+
+    <!--button-->
+    <button id="postbtn"
+      class="w-full bg-pink-500 text-white py-3 font-semibold opacity-50 cursor-not-allowed rounded-b-xl">Post</button>
+  </div>
+  </div>
+
+
+  <!--msg-->
+  <div id="msg" class="bg-gray-800 rounded-full fixed bottom-6 font-semibold text-white px-6 py-3 text-sm hidden">Posted
+    successfully!!</div>
+  <!--script-->
+
+  <script src="script.js"> </script>
+</body>
+
+</html>
