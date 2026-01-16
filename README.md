@@ -7,21 +7,7 @@ This app counts the number of characters you type in real time — perfect for w
 
 ---
 
-## 📌 Table of Contents
 
-1. 🚀 About the Project  
-2. ⭐ Features  
-3. 📸 Screenshot  
-4. 🛠️ Technologies Used  
-5. 📂 File Structure  
-6. ⚙️ How It Works  
-7. 🧪 Installation & Usage  
-8. 💡 Future Enhancements  
-9. 🤝 Contributing  
-10. 📄 License  
-11. 👩‍💻 Author
-
----
 
 ## 🚀 About the Project
 
